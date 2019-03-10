@@ -4,7 +4,7 @@ module Dessert
       class << self
         def get(id, value)
           @coefficient ||= Prime.take(Dessert.config.signiture_size)
-          (@coefficient[id] * value + 2 * id) % Dessert.config.minhash_mod
+          (@coefficient[id] * value.to_i + 2 * id) % Dessert.config.minhash_mod
         end
       end
     end
