@@ -1,0 +1,27 @@
+PATH
+  remote: .
+  specs:
+    dessert (0.1.0)
+      hooks (~> 0.4.1)
+      prime (~> 0.1.0)
+      redis (~> 4.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    hooks (0.4.1)
+      uber (~> 0.0.14)
+    prime (0.1.0)
+    rake (12.3.2)
+    redis (4.1.0)
+    uber (0.0.15)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  dessert!
+  rake (~> 12.3.1)
+
+BUNDLED WITH
+   2.0.1
